@@ -18,8 +18,8 @@ int main(void)
 	}
 	if (d < 10)
 	{
-	putchar(',');
-      	putchar(' ');
+		putchar(',');
+    		putchar(' ');
 	}
 	return (0);
 }

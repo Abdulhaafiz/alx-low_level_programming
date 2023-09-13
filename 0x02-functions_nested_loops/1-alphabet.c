@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: "A program to print alphabets in lowercase"
+ * Description: "print_alphabet"
  *
  * Return: Always 0 (Success)
  */

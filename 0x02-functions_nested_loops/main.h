@@ -1,11 +1,4 @@
-/**
- * print_alphabet - Prints english alphabets in lowercase
- *
- * Description : A function to print english alphabets in lowercase
- *
- * Return: Always 0 (Success)
- */
-
+#include <stdio.h>
 void print_alphabet(void);
 
 void print_alphabet(void)

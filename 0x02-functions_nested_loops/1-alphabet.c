@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * main - Entry point
  *
- * Description: "print_alphabet"
+ * Description: "print_alphabet()"
  *
  * Return: Always 0 (Success)
  */

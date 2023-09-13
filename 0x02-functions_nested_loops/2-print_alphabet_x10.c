@@ -1,16 +1,20 @@
-#include <stdio.h>
-#include "print.h"
+#include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: "print_alphabet_x10()"
- *
- * Return: Always 0 (Success)
+ * print_alphabet_x10 - A function to print alphabets ten times
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
-	return (0);
+	char a;
+	int b;
+
+	for (b = 1 ; b <= 10 ; b++)
+	{
+		for (a = 'a' ; a <= 'z' ; a++)
+		{
+			_putchar(a);
+		}
+	}
+	_putchar('\n');
 }

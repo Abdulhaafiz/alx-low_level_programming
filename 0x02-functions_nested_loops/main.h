@@ -1,4 +1,3 @@
-#define _putchar putchar
 /**
  * print_alphabet - Prints english alphabets in lowercase
  *
@@ -15,8 +14,8 @@ char a;
 a = 'a';
 while (a <= 'z')
 {
-_putchar(a);
+putchar(a);
 a++;
 }
-_putchar('\n');
+putchar('\n');
 }

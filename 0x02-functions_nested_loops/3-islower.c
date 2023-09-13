@@ -1,16 +1,21 @@
-#include <stdio.h>
-#include "lower.h"
+#include "main.h"
 
 /**
- * main - Entry point
+ * _islower - A function that returns 1 if c is a lowercase
  *
- * Description: "_islower(int)"
+ * c - the character to check
  *
- * Return: 1 if islower is lowercase
+ * Return: 1 if c is a lowercase else 0
  */
 
-int main(void)
+int _islower(int c)
 {
-	int _islower(int c);
-	return (0);
+	if (_islower(c)
+			{
+			return (1);
+			{
+			else
+			{
+			return (0);
+			}
 }

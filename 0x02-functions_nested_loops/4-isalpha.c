@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - A function that returns 1 is c is an alphabet else 0
+ * _isalpha - A function that returns 1 if c is an alphabet else 0
  *
  * @c: The character to check
  *
@@ -10,7 +10,7 @@
 
 int _isalpha(int c)
 {
-	if (c >= 'a' && c <= 'z')||(c >= 'A' && c <= 'Z')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
